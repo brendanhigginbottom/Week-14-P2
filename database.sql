@@ -3,6 +3,8 @@
 
 -- Create a database called "activity_log"
 
+--! NUMERIC allows decimals, INTEGER does not
+
 CREATE TABLE "activity" (
 	"id"            SERIAL PRIMARY KEY,
 	"name"          VARCHAR(255),

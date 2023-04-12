@@ -30,7 +30,7 @@ function StepThree() {
             <form onSubmit={nextPage}>
                 {/* Label matches input id to help screenreaders */}
                 <label htmlFor="minutes">Minutes:</label><br />
-                <input id="minutes" value={minutes} onChange={handleChange} type="text" />
+                <input id="minutes" value={minutes} onChange={handleChange} type="number" />
                 <input type="submit" value="Next" />
             </form>
         </>
